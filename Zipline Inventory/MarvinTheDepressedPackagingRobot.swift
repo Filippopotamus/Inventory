@@ -61,7 +61,7 @@ class MarvinTheDepressedPackagingRobot {
     
     // Marvin likes sorting items by weight
     products = products.sorted(by: { (a, b) -> Bool in
-      a.mass > b.mass
+      a.mass < b.mass
     })
     
     var shipments: [Shipment] = []
@@ -70,6 +70,9 @@ class MarvinTheDepressedPackagingRobot {
       var boxItems: [Int] = []
       var totalWeight: Int = 0
       
+      // Marvin knows to do it in reverse. His reasons are 2-fold:
+      // 1: He likes doing heaviest first
+      // 2: He knows better not to takes items from bellow the statck of items, or they will come *crashing* down
       for index in (0..<products.count).reversed() {
         let product = products[index]
         if totalWeight + product.mass <= ZipConstants.weightLimit {
