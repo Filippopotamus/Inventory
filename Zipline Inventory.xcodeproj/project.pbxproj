@@ -12,6 +12,17 @@
 		D43EF43E230DF27600DA27E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43EF43C230DF27600DA27E2 /* Main.storyboard */; };
 		D43EF440230DF27900DA27E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43EF43F230DF27900DA27E2 /* Assets.xcassets */; };
 		D43EF443230DF27900DA27E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43EF441230DF27900DA27E2 /* LaunchScreen.storyboard */; };
+		D43EF44B230DF2D800DA27E2 /* InventoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF44A230DF2D800DA27E2 /* InventoryManager.swift */; };
+		D43EF44E230DF2F800DA27E2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF44D230DF2F800DA27E2 /* Product.swift */; };
+		D43EF450230DF56E00DA27E2 /* OrderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF44F230DF56E00DA27E2 /* OrderRequest.swift */; };
+		D43EF452230DF58800DA27E2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF451230DF58800DA27E2 /* Order.swift */; };
+		D43EF454230DF5A100DA27E2 /* Restock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF453230DF5A100DA27E2 /* Restock.swift */; };
+		D43EF456230DF5D100DA27E2 /* Shipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF455230DF5D100DA27E2 /* Shipment.swift */; };
+		D43EF458230DF5ED00DA27E2 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF457230DF5ED00DA27E2 /* Catalog.swift */; };
+		D43EF45A230DFAED00DA27E2 /* Mothership.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF459230DFAED00DA27E2 /* Mothership.swift */; };
+		D43EF45C230E08FD00DA27E2 /* MarvinTheDepressedPackagingRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF45B230E08FD00DA27E2 /* MarvinTheDepressedPackagingRobot.swift */; };
+		D43EF45E230E120300DA27E2 /* ZipConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF45D230E120300DA27E2 /* ZipConstants.swift */; };
+		D43EF460230E16FC00DA27E2 /* UnfulfilledOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43EF45F230E16FC00DA27E2 /* UnfulfilledOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		D43EF43F230DF27900DA27E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D43EF442230DF27900DA27E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D43EF444230DF27900DA27E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43EF44A230DF2D800DA27E2 /* InventoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryManager.swift; sourceTree = "<group>"; };
+		D43EF44D230DF2F800DA27E2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D43EF44F230DF56E00DA27E2 /* OrderRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRequest.swift; sourceTree = "<group>"; };
+		D43EF451230DF58800DA27E2 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D43EF453230DF5A100DA27E2 /* Restock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restock.swift; sourceTree = "<group>"; };
+		D43EF455230DF5D100DA27E2 /* Shipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shipment.swift; sourceTree = "<group>"; };
+		D43EF457230DF5ED00DA27E2 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		D43EF459230DFAED00DA27E2 /* Mothership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mothership.swift; sourceTree = "<group>"; };
+		D43EF45B230E08FD00DA27E2 /* MarvinTheDepressedPackagingRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinTheDepressedPackagingRobot.swift; sourceTree = "<group>"; };
+		D43EF45D230E120300DA27E2 /* ZipConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipConstants.swift; sourceTree = "<group>"; };
+		D43EF45F230E16FC00DA27E2 /* UnfulfilledOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfulfilledOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,33 @@
 		D43EF437230DF27600DA27E2 /* Zipline Inventory */ = {
 			isa = PBXGroup;
 			children = (
+				D43EF44C230DF2E600DA27E2 /* Models */,
 				D43EF438230DF27600DA27E2 /* AppDelegate.swift */,
 				D43EF43A230DF27600DA27E2 /* ViewController.swift */,
 				D43EF43C230DF27600DA27E2 /* Main.storyboard */,
 				D43EF43F230DF27900DA27E2 /* Assets.xcassets */,
 				D43EF441230DF27900DA27E2 /* LaunchScreen.storyboard */,
 				D43EF444230DF27900DA27E2 /* Info.plist */,
+				D43EF44A230DF2D800DA27E2 /* InventoryManager.swift */,
+				D43EF459230DFAED00DA27E2 /* Mothership.swift */,
+				D43EF45B230E08FD00DA27E2 /* MarvinTheDepressedPackagingRobot.swift */,
+				D43EF45D230E120300DA27E2 /* ZipConstants.swift */,
 			);
 			path = "Zipline Inventory";
+			sourceTree = "<group>";
+		};
+		D43EF44C230DF2E600DA27E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D43EF44D230DF2F800DA27E2 /* Product.swift */,
+				D43EF44F230DF56E00DA27E2 /* OrderRequest.swift */,
+				D43EF451230DF58800DA27E2 /* Order.swift */,
+				D43EF453230DF5A100DA27E2 /* Restock.swift */,
+				D43EF455230DF5D100DA27E2 /* Shipment.swift */,
+				D43EF457230DF5ED00DA27E2 /* Catalog.swift */,
+				D43EF45F230E16FC00DA27E2 /* UnfulfilledOrder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +176,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43EF458230DF5ED00DA27E2 /* Catalog.swift in Sources */,
+				D43EF452230DF58800DA27E2 /* Order.swift in Sources */,
+				D43EF45C230E08FD00DA27E2 /* MarvinTheDepressedPackagingRobot.swift in Sources */,
+				D43EF456230DF5D100DA27E2 /* Shipment.swift in Sources */,
 				D43EF43B230DF27600DA27E2 /* ViewController.swift in Sources */,
+				D43EF45E230E120300DA27E2 /* ZipConstants.swift in Sources */,
+				D43EF45A230DFAED00DA27E2 /* Mothership.swift in Sources */,
+				D43EF460230E16FC00DA27E2 /* UnfulfilledOrder.swift in Sources */,
+				D43EF44E230DF2F800DA27E2 /* Product.swift in Sources */,
+				D43EF454230DF5A100DA27E2 /* Restock.swift in Sources */,
+				D43EF450230DF56E00DA27E2 /* OrderRequest.swift in Sources */,
+				D43EF44B230DF2D800DA27E2 /* InventoryManager.swift in Sources */,
 				D43EF439230DF27600DA27E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
